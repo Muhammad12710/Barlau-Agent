@@ -1,8 +1,7 @@
 # 🐆 Barys Framework
 ### Offensive Security Arsenal · Made in Kazakhstan
 
-![Barys logo](<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/cb17eb24-e27a-4ccc-bf77-64d54ed01328" />
-)
+![Barys Framework](https://github.com/user-attachments/assets/cb17eb24-e27a-4ccc-bf77-64d54ed01328)
 
 **Barys** is a modular red team platform for simulating advanced persistent threats (APT) against government and corporate networks. It combines post-exploitation agents, lateral movement tools, and stealth C2 communication channels, all designed to test the resilience of critical infrastructure.
 
