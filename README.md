@@ -1,5 +1,5 @@
 # BARLAU-AGENT | 🇰🇿
-### Offensive Security Arsenal · Made in Kazakhstan
+### BARLAU · Autonomous Reconnaissance Agent · Made in Kazakhstan
 
 ![Barys Framework](https://github.com/user-attachments/assets/cb17eb24-e27a-4ccc-bf77-64d54ed01328)
 
