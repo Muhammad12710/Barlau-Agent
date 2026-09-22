@@ -1,57 +1,249 @@
-# BARLAU-AGENT | 🇰🇿
-### BARLAU · Autonomous Reconnaissance Agent · Made in Kazakhstan
+<div align="center">
 
 <img src="https://github.com/user-attachments/assets/9dde6e81-97dc-4b2a-afc7-9fafc010d4c4" alt="Barys Framework" width="700">
 
-**Barlau** is an experimental Red Team tool for covert data exfiltration and
-evasion of standard Windows endpoint protection. It was developed for
-educational and research purposes to assess the resilience of corporate
-security systems.
+# BARLAU — Autonomous Reconnaissance Agent
 
-⚠️ **Warning:** This tool is intended **solely** for authorised penetration
-tests, blue team training, and security demonstrations. The author
-assumes **no liability** for any unauthorised use. This repository contains **demonstration materials
-only**. The source code is **not public** and is shared exclusively
-under NDA. Read the full [Disclaimer](DISCLAIMER.md).
+**EXPERIMENTAL RESEARCH PROTOTYPE**
+
+Kazakhstan Military Intelligence Tool · Research Prototype
 
 ---
 
-## 🎯 Key Features
+**БІЛІМ • БАҚЫЛАУ • ҚАУІПСІЗДІК**
 
-- 🕵️ **Silent extraction** of saved passwords and cookies from browsers
-  (Chrome, Edge, and other Chromium-based).
-- 📋 **System reconnaissance** – hostname, IP address, OS version, list
-  of installed software.
-- 📤 **Covert exfiltration** of harvested data to a Telegram bot(possibility to create a separate C2 in the future).
-- 🧹 **Self-deletion** of the executable after execution (optional).
-- 🛡️ **Evasion of Microsoft Defender** with default settings, Controlled
-  Folder Access, and Tamper Protection (when cloud-based protection is
-  disabled).
-- 🔁 **Polymorphic build** – every compiled binary has a unique hash.
-- 📦 **Single, portable EXE** – no Python installation required on the
-  target machine.
+*Knowledge • Surveillance • Security*
 
 ---
 
-## 🧠 How It Evades Defender
+![Status](https://img.shields.io/badge/status-experimental-orange)
+![Version](https://img.shields.io/badge/version-0.9.1-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/license-Research%20Only-red)
 
-Barlau uses a combination of techniques to remain invisible to
-Microsoft Defender:
+**Read this in:** [English](#english) · [Қазақша](#қазақша) · [Русский](#русский)
 
-1. **Polymorphic shellcode** – the core payload is XOR‑encrypted and
-   injected with random NOP‑sleds, making static signatures useless.
-2. **Deep obfuscation** – all strings and logic are mangled at build
-   time, defeating heuristic analysis.
-3. **Legitimate API behaviour** – no suspicious WinAPI calls (e.g.,
-   `VirtualAllocEx`); the agent reads browser databases like any
-   legitimate application.
-4. **No AMSI footprint** – Python-based payloads are not scanned by
-   AMSI, bypassing script-level inspection.
-5. **HTTPS exfiltration** – data is sent to `api.telegram.org` over
-   TLS, blending into normal network traffic.
-6. **Self-deletion** – the agent removes itself from disk after
-   execution, eliminating forensic evidence.
+</div>
 
 ---
 
-## 📸 Demonstration
+<a id="english"></a>
+
+## 🇬🇧 English
+
+### ⚠️ IMPORTANT – READ FIRST
+
+> This project is a **STRICTLY EXPERIMENTAL RESEARCH PROTOTYPE**.
+>
+> It is not intended for real-world deployment, distribution, or causing harm. The code is published for educational purposes, to demonstrate autonomous reconnaissance capabilities and to stimulate the development of national cybersecurity in Kazakhstan.
+>
+> This tool is under active development. Many modules are incomplete, functionality may be unstable, and any provided binaries are demonstration builds only. **Any use outside an isolated laboratory environment is strictly prohibited.**
+>
+> The authors assume no liability for misuse of this prototype. By using any material from this repository, you agree to employ it solely for authorized penetration tests with written permission from the system owner.
+
+---
+
+### Vision
+
+Strengthening the cyber sovereignty of the Republic of Kazakhstan through an open platform for researching autonomous reconnaissance methods and countering digital threats. **Barlau** is an experimental Red Team tool developed by Kazakhstani specialists for educational and defensive purposes.
+
+---
+
+### Capabilities (Current Prototype)
+
+| Category | Description |
+|---|---|
+| **Multi-browser harvesting** | Chrome, Edge, Brave, Opera, Vivaldi, Yandex, Firefox — passwords, cookies, autofill, credit cards, history |
+| **Cryptocurrency wallets** | Phantom, Keplr, MetaMask, Ronin, Exodus, Atomic Wallet, seed phrases (clipboard scan) |
+| **Credentials** | SSH keys, Git/AWS/Azure/GCloud configs, KeePass, 1Password, Bitwarden, email clients |
+| **Messengers & Network** | Telegram tdata, Discord tokens, FileZilla, WinSCP, VPN configs, Wi-Fi passwords |
+| **System intelligence** | Screenshot, webcam capture (if available), keylogger (60 sec), clipboard dump, installed software list |
+| **Document grabber** | Sensitive .doc, .xls, .pdf, .dwg files (filtered by date and keywords) |
+| **Evasion** | AMSI/ETW patching, anti-sandbox, log wiping, self-destruct |
+
+> ⚠️ All features work only in a controlled test environment. The current version contains placeholders and unfinished modules, marked in the code.
+
+---
+
+### 🧪 For Researchers & State Entities
+
+You may request access to the full codebase for joint research or pilot projects.
+
+**Contact:** [barlau@proton.me](mailto:barlau@proton.me)
+
+---
+
+### Documentation
+
+| Document | Description |
+|---|---|
+| 📄 **White Paper** | Prototype architecture |
+| 🧪 **Testing Guide** | Strict instructions for deploying a demo stand |
+| 🗺 **Roadmap** | Further development plans (experimental) |
+
+---
+
+### Contact
+
+- **Telegram:** [@BarlauOfficial](https://t.me/BarlauOfficial)
+- **Email:** [barlau@proton.me](mailto:barlau@proton.me)
+
+---
+
+<div align="center">
+
+**Made in Kazakhstan 🇰🇿 · Experimental Project · Version 0.9.1**
+
+</div>
+
+---
+
+<a id="қазақша"></a>
+
+## 🇰🇿 Қазақша
+
+### ⚠️ МАҢЫЗДЫ – АЛДЫМЕН ОҚЫҢЫЗ
+
+> Бұл жоба **ТЕК ЭКСПЕРИМЕНТТІК ЗЕРТТЕУ ПРОТОТИПІ** болып табылады.
+>
+> Ол нақты пайдалануға, таратуға немесе зиян келтіруге арналмаған. Код автономды барлау мүмкіндіктерін көрсету және Қазақстанның ұлттық киберқауіпсіздігін дамытуды ынталандыру үшін білім беру мақсатында жарияланған.
+>
+> Бұл құрал белсенді әзірлеу сатысында. Көптеген модульдер аяқталмаған, функциялар тұрақсыз болуы мүмкін, ал ұсынылған екілік файлдар тек демонстрациялық жинақтар. **Зертханалық ортадан тыс кез келген пайдалануға қатаң тыйым салынады.**
+>
+> Авторлар прототипті заңсыз пайдаланғаны үшін жауапкершілік көтермейді. Осы репозиторийден кез келген материалды пайдалана отырып, сіз оны жүйе иесінің жазбаша рұқсатымен ғана санкцияланған ену тестілері үшін қолдануға келісесіз.
+
+---
+
+### Мақсаты
+
+Автономды барлау әдістерін зерттеу және цифрлық қауіптерге қарсы тұру үшін ашық платформа құру арқылы Қазақстан Республикасының киберегемендігін нығайту. **Barlau** — қазақстандық мамандар білім беру және қорғаныс мақсатында әзірлеген эксперименттік Red Team құралы.
+
+---
+
+### Мүмкіндіктері (ағымдағы прототип)
+
+| Санат | Сипаттама |
+|---|---|
+| **Көп браузерлі жинау** | Chrome, Edge, Brave, Opera, Vivaldi, Yandex, Firefox — құпиясөздер, cookie файлдары, автотолтыру, несие карталары, тарих |
+| **Криптовалюта әмияндары** | Phantom, Keplr, MetaMask, Ronin, Exodus, Atomic Wallet, seed фразалар (буферден) |
+| **Тіркелгі деректері** | SSH кілттері, Git/AWS/Azure/GCloud конфигурациялары, KeePass, 1Password, Bitwarden, электрондық пошта клиенттері |
+| **Мессенджерлер & Желі** | Telegram tdata, Discord токендері, FileZilla, WinSCP, VPN конфигурациялары, Wi-Fi құпиясөздері |
+| **Жүйелік ақпарат** | Скриншот, веб-камера суреті (қолжетімді болса), пернетақта тыңдаушысы (60 сек), буфер алмасу, орнатылған бағдарламалар тізімі |
+| **Құжат жинаушы** | Сезімтал .doc, .xls, .pdf, .dwg файлдары (күні мен кілт сөздері бойынша сүзгі) |
+| **Жасырыну** | AMSI/ETW патчтау, анти-құмсалғыш, журналдарды тазарту, өзін-өзі жою |
+
+> ⚠️ Барлық функциялар тек бақыланатын сынақ ортасында жұмыс істейді. Ағымдағы нұсқада кодта белгіленген толтырғыштар мен аяқталмаған модульдер бар.
+
+---
+
+### 🧪 Зерттеушілер мен мемлекеттік органдар үшін
+
+Бірлескен зерттеулер немесе пилоттық жобалар үшін толық кодқа қол жеткізуді сұрай аласыз.
+
+**Байланыс:** [barlau@proton.me](mailto:barlau@proton.me)
+
+---
+
+### Құжаттама
+
+| Құжат | Сипаттама |
+|---|---|
+| 📄 **White Paper** | Прототип архитектурасы |
+| 🧪 **Тестілеу нұсқаулығы** | Демо стендті орналастыру үшін қатаң нұсқаулық |
+| 🗺 **Жол картасы** | Одан әрі даму жоспарлары (эксперименттік) |
+
+---
+
+### Байланыс
+
+- **Telegram:** [@BarlauOfficial](https://t.me/BarlauOfficial)
+- **Email:** [barlau@proton.me](mailto:barlau@proton.me)
+
+---
+
+<div align="center">
+
+**Қазақстанда жасалған 🇰🇿 · Эксперименттік жоба · 0.9.1 нұсқасы**
+
+</div>
+
+---
+
+<a id="русский"></a>
+
+## 🇷🇺 Русский
+
+### ⚠️ ВАЖНО – ПРОЧИТАЙТЕ В ПЕРВУЮ ОЧЕРЕДЬ
+
+> Этот проект является **ИСКЛЮЧИТЕЛЬНО ЭКСПЕРИМЕНТАЛЬНЫМ ИССЛЕДОВАТЕЛЬСКИМ ПРОТОТИПОМ**.
+>
+> Он не предназначен для реального применения, распространения или причинения вреда. Код публикуется в образовательных целях для демонстрации возможностей автономной разведки и стимулирования развития национальной кибербезопасности Казахстана.
+>
+> Инструмент находится в стадии активной разработки. Многие модули не завершены, функциональность может быть нестабильной, а предоставленные двоичные файлы являются демонстрационными сборками. **Любое использование вне изолированной лабораторной среды строго запрещено.**
+>
+> Авторы не несут ответственности за неправомерное использование данного прототипа. Используя любой материал из этого репозитория, вы соглашаетесь применять его исключительно для санкционированных тестов на проницаемость с письменного разрешения владельца системы.
+
+---
+
+### Видение
+
+Укрепление киберсуверенитета Республики Казахстан через создание открытой платформы для исследования методов автономной разведки и противостояния цифровым угрозам. **Barlau** — экспериментальный инструмент Red Team, разрабатываемый казахстанскими специалистами в образовательных и защитных целях.
+
+---
+
+### Возможности (текущий прототип)
+
+| Категория | Описание |
+|---|---|
+| **Сбор данных из браузеров** | Chrome, Edge, Brave, Opera, Vivaldi, Yandex, Firefox — пароли, куки, автозаполнение, кредитные карты, история |
+| **Криптовалютные кошельки** | Phantom, Keplr, MetaMask, Ronin, Exodus, Atomic Wallet, seed-фразы (анализ буфера обмена) |
+| **Учётные данные** | SSH-ключи, конфиги Git/AWS/Azure/GCloud, KeePass, 1Password, Bitwarden, почтовые клиенты |
+| **Мессенджеры и сеть** | Telegram tdata, токены Discord, FileZilla, WinSCP, конфиги VPN, пароли Wi-Fi |
+| **Системная информация** | Скриншот, снимок с веб-камеры (при наличии), кейлоггер (60 сек), дамп буфера обмена, список установленного ПО |
+| **Сбор документов** | Чувствительные файлы .doc, .xls, .pdf, .dwg (фильтр по дате и ключевым словам) |
+| **Обход защиты** | Патчинг AMSI/ETW, анти-песочница, очистка журналов, самоуничтожение |
+
+> ⚠️ Все функции работают только в контролируемой тестовой среде. Текущая версия содержит заглушки и незавершённые модули, отмеченные в коде.
+
+---
+
+### 🧪 Для исследователей и государственных структур
+
+Вы можете запросить доступ к полной кодовой базе для проведения совместных исследований или пилотных проектов.
+
+**Контакт:** [barlau@proton.me](mailto:barlau@proton.me)
+
+---
+
+### Документация
+
+| Документ | Описание |
+|---|---|
+| 📄 **White Paper** | Архитектура прототипа |
+| 🧪 **Руководство по тестированию** | Строгая инструкция по развёртыванию демо-стенда |
+| 🗺 **Дорожная карта** | Планы дальнейшей разработки (экспериментальной) |
+
+---
+
+### Контакты
+
+- **Telegram:** [@BarlauOfficial](https://t.me/BarlauOfficial)
+- **Email:** [barlau@proton.me](mailto:barlau@proton.me)
+
+---
+
+<div align="center">
+
+**Сделано в Казахстане 🇰🇿 · Экспериментальный проект · Версия 0.9.1**
+
+</div>
+
+---
+
+<div align="center">
+
+**БІЛІМ • БАҚЫЛАУ • ҚАУІПСІЗДІК**
+
+*Knowledge • Surveillance • Security*
+
+</div>
