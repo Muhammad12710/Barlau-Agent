@@ -69,7 +69,7 @@ Strengthening the cyber sovereignty of the Republic of Kazakhstan through an ope
 
 You may request access to the full codebase for joint research or pilot projects.
 
-**Contact:** [barlau@proton.me](mailto:barlau@proton.me)
+**Contact:** [barlau@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
@@ -85,8 +85,7 @@ You may request access to the full codebase for joint research or pilot projects
 
 ### Contact
 
-- **Telegram:** [@BarlauOfficial](https://t.me/BarlauOfficial)
-- **Email:** [barlau@proton.me](mailto:barlau@proton.me)
+- **Email:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
@@ -140,7 +139,7 @@ You may request access to the full codebase for joint research or pilot projects
 
 Бірлескен зерттеулер немесе пилоттық жобалар үшін толық кодқа қол жеткізуді сұрай аласыз.
 
-**Байланыс:** [barlau@proton.me](mailto:barlau@proton.me)
+**Байланыс:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
@@ -156,8 +155,7 @@ You may request access to the full codebase for joint research or pilot projects
 
 ### Байланыс
 
-- **Telegram:** [@BarlauOfficial](https://t.me/BarlauOfficial)
-- **Email:** [barlau@proton.me](mailto:barlau@proton.me)
+- **Email:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
@@ -211,7 +209,7 @@ You may request access to the full codebase for joint research or pilot projects
 
 Вы можете запросить доступ к полной кодовой базе для проведения совместных исследований или пилотных проектов.
 
-**Контакт:** [barlau@proton.me](mailto:barlau@proton.me)
+**Контакт:** [MadMax1337@proton.me](MadMax1337@proton.me)
 
 ---
 
@@ -227,8 +225,7 @@ You may request access to the full codebase for joint research or pilot projects
 
 ### Контакты
 
-- **Telegram:** [@BarlauOfficial](https://t.me/BarlauOfficial)
-- **Email:** [barlau@proton.me](mailto:barlau@proton.me)
+- **Email:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
