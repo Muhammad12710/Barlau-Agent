@@ -4,7 +4,7 @@
 
 # BARLAU — Autonomous Reconnaissance Agent
 
-**EXPERIMENTAL RESEARCH PROTOTYPE**
+**EXPERIMENTAL RESEARCH PROTOTYPE · CONCEPT ONLY**
 
 Kazakhstan Military Intelligence Tool · Research Prototype
 
@@ -16,9 +16,9 @@ Kazakhstan Military Intelligence Tool · Research Prototype
 
 ---
 
-![Status](https://img.shields.io/badge/status-experimental-orange)
+![Status](https://img.shields.io/badge/status-concept%20only-orange)
 ![Version](https://img.shields.io/badge/version-0.9.1-blue)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![Code](https://img.shields.io/badge/code-not%20published-lightgrey)
 ![License](https://img.shields.io/badge/license-Research%20Only-red)
 
 **Read this in:** [English](#english) · [Қазақша](#қазақша) · [Русский](#русский)
@@ -33,23 +33,27 @@ Kazakhstan Military Intelligence Tool · Research Prototype
 
 ### ⚠️ IMPORTANT – READ FIRST
 
-> This project is a **STRICTLY EXPERIMENTAL RESEARCH PROTOTYPE**.
+> This repository is a **CONCEPTUAL AND EDUCATIONAL DESCRIPTION ONLY**.
 >
-> It is not intended for real-world deployment, distribution, or causing harm. The code is published for educational purposes, to demonstrate autonomous reconnaissance capabilities and to stimulate the development of national cybersecurity in Kazakhstan.
+> **No source code, no binaries, no executables, and no downloadable files are published here.** This page exists solely to describe the research direction, the intended architecture, and the defensive motivation behind the project.
 >
-> This tool is under active development. Many modules are incomplete, functionality may be unstable, and any provided binaries are demonstration builds only. **Any use outside an isolated laboratory environment is strictly prohibited.**
+> BARLAU is a **STRICTLY EXPERIMENTAL RESEARCH PROTOTYPE**. It is not intended for real-world deployment, distribution, or causing harm. The material is published for educational purposes, to demonstrate autonomous reconnaissance concepts and to stimulate the development of national cybersecurity in Kazakhstan.
 >
-> The authors assume no liability for misuse of this prototype. By using any material from this repository, you agree to employ it solely for authorized penetration tests with written permission from the system owner.
+> Any provided descriptions refer to modules that are incomplete or exist only as placeholders. **Any use outside an isolated laboratory environment is strictly prohibited.**
+>
+> The authors assume no liability for misuse of the described concepts. By reading this material, you agree to employ it solely for authorized penetration tests with written permission from the system owner.
 
 ---
 
 ### Vision
 
-Strengthening the cyber sovereignty of the Republic of Kazakhstan through an open platform for researching autonomous reconnaissance methods and countering digital threats. **Barlau** is an experimental Red Team tool developed by Kazakhstani specialists for educational and defensive purposes.
+Strengthening the cyber sovereignty of the Republic of Kazakhstan through an open platform for researching autonomous reconnaissance methods and countering digital threats. **Barlau** is an experimental Red Team concept developed by Kazakhstani specialists for educational and defensive purposes.
 
 ---
 
-### Capabilities (Current Prototype)
+### Capabilities (Described Concept — Not Published)
+
+The table below describes the **intended research scope** of the prototype. None of these modules are distributed in this repository.
 
 | Category | Description |
 |---|---|
@@ -61,15 +65,17 @@ Strengthening the cyber sovereignty of the Republic of Kazakhstan through an ope
 | **Document grabber** | Sensitive .doc, .xls, .pdf, .dwg files (filtered by date and keywords) |
 | **Evasion** | AMSI/ETW patching, anti-sandbox, log wiping, self-destruct |
 
-> ⚠️ All features work only in a controlled test environment. The current version contains placeholders and unfinished modules, marked in the code.
+> ⚠️ All descriptions refer to a controlled test environment only. No code, binaries, or files are provided. The project remains at the conceptual and documentation stage.
 
 ---
 
 ### 🧪 For Researchers & State Entities
 
-You may request access to the full codebase for joint research or pilot projects.
+Access to the full codebase is **not publicly available**. The author does not distribute source code, binaries, or any executable material through this repository.
 
-**Contact:** [barlau@proton.me](mailto:MadMax1337@proton.me)
+For joint research, academic collaboration, or pilot projects, you may contact the author directly.
+
+**Contact:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
@@ -77,9 +83,11 @@ You may request access to the full codebase for joint research or pilot projects
 
 | Document | Description |
 |---|---|
-| 📄 **White Paper** | Prototype architecture |
-| 🧪 **Testing Guide** | Strict instructions for deploying a demo stand |
+| 📄 **White Paper** | Prototype architecture (described, not distributed) |
+| 🧪 **Testing Guide** | Conceptual instructions for a laboratory stand |
 | 🗺 **Roadmap** | Further development plans (experimental) |
+
+> 📌 Documentation is provided for descriptive purposes only. No code or binaries accompany it.
 
 ---
 
@@ -103,23 +111,27 @@ You may request access to the full codebase for joint research or pilot projects
 
 ### ⚠️ МАҢЫЗДЫ – АЛДЫМЕН ОҚЫҢЫЗ
 
-> Бұл жоба **ТЕК ЭКСПЕРИМЕНТТІК ЗЕРТТЕУ ПРОТОТИПІ** болып табылады.
+> Бұл репозиторий — **ТЕК ТҮСІНДІРМЕ ЖӘНЕ БІЛІМ БЕРУ СИПАТТАМАСЫ**.
 >
-> Ол нақты пайдалануға, таратуға немесе зиян келтіруге арналмаған. Код автономды барлау мүмкіндіктерін көрсету және Қазақстанның ұлттық киберқауіпсіздігін дамытуды ынталандыру үшін білім беру мақсатында жарияланған.
+> **Мұнда бастапқы код, екілік файлдар, орындалатын файлдар немесе жүктеп алуға болатын кез келген материал жарияланбаған.** Бұл бет тек зерттеу бағытын, жоспарланған архитектураны және жобаның қорғаныс мотивациясын сипаттау үшін ұсынылған.
 >
-> Бұл құрал белсенді әзірлеу сатысында. Көптеген модульдер аяқталмаған, функциялар тұрақсыз болуы мүмкін, ал ұсынылған екілік файлдар тек демонстрациялық жинақтар. **Зертханалық ортадан тыс кез келген пайдалануға қатаң тыйым салынады.**
+> BARLAU — **ТЕК ЭКСПЕРИМЕНТТІК ЗЕРТТЕУ ПРОТОТИПІ**. Ол нақты пайдалануға, таратуға немесе зиян келтіруге арналмаған. Материал автономды барлау тұжырымдамаларын көрсету және Қазақстанның ұлттық киберқауіпсіздігін дамытуды ынталандыру үшін білім беру мақсатында жарияланған.
 >
-> Авторлар прототипті заңсыз пайдаланғаны үшін жауапкершілік көтермейді. Осы репозиторийден кез келген материалды пайдалана отырып, сіз оны жүйе иесінің жазбаша рұқсатымен ғана санкцияланған ену тестілері үшін қолдануға келісесіз.
+> Келтірілген сипаттамалар аяқталмаған немесе тек толтырғыш ретінде бар модульдерге қатысты. **Зертханалық ортадан тыс кез келген пайдалануға қатаң тыйым салынады.**
+>
+> Авторлар сипатталған тұжырымдамаларды заңсыз пайдаланғаны үшін жауапкершілік көтермейді. Осы материалмен таныса отырып, сіз оны жүйе иесінің жазбаша рұқсатымен ғана санкцияланған ену тестілері үшін қолдануға келісесіз.
 
 ---
 
 ### Мақсаты
 
-Автономды барлау әдістерін зерттеу және цифрлық қауіптерге қарсы тұру үшін ашық платформа құру арқылы Қазақстан Республикасының киберегемендігін нығайту. **Barlau** — қазақстандық мамандар білім беру және қорғаныс мақсатында әзірлеген эксперименттік Red Team құралы.
+Автономды барлау әдістерін зерттеу және цифрлық қауіптерге қарсы тұру үшін ашық платформа құру арқылы Қазақстан Республикасының киберегемендігін нығайту. **Barlau** — қазақстандық мамандар білім беру және қорғаныс мақсатында әзірлеген эксперименттік Red Team тұжырымдамасы.
 
 ---
 
-### Мүмкіндіктері (ағымдағы прототип)
+### Мүмкіндіктері (сипатталған тұжырымдама — жарияланбаған)
+
+Төмендегі кесте прототиптің **жоспарланған зерттеу ауқымын** сипаттайды. Бұл модульдердің ешқайсысы осы репозиторийде таратылмайды.
 
 | Санат | Сипаттама |
 |---|---|
@@ -131,13 +143,15 @@ You may request access to the full codebase for joint research or pilot projects
 | **Құжат жинаушы** | Сезімтал .doc, .xls, .pdf, .dwg файлдары (күні мен кілт сөздері бойынша сүзгі) |
 | **Жасырыну** | AMSI/ETW патчтау, анти-құмсалғыш, журналдарды тазарту, өзін-өзі жою |
 
-> ⚠️ Барлық функциялар тек бақыланатын сынақ ортасында жұмыс істейді. Ағымдағы нұсқада кодта белгіленген толтырғыштар мен аяқталмаған модульдер бар.
+> ⚠️ Барлық сипаттамалар тек бақыланатын сынақ ортасына қатысты. Код, екілік файлдар немесе кез келген файл ұсынылмайды. Жоба тұжырымдамалық және құжаттамалық кезеңде қалады.
 
 ---
 
 ### 🧪 Зерттеушілер мен мемлекеттік органдар үшін
 
-Бірлескен зерттеулер немесе пилоттық жобалар үшін толық кодқа қол жеткізуді сұрай аласыз.
+Толық кодқа қол жеткізу **жалпыға қолжетімді емес**. Автор осы репозиторий арқылы бастапқы кодты, екілік файлдарды немесе кез келген орындалатын материалды таратпайды.
+
+Бірлескен зерттеулер, академиялық ынтымақтастық немесе пилоттық жобалар үшін автормен тікелей байланыса аласыз.
 
 **Байланыс:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
@@ -147,9 +161,11 @@ You may request access to the full codebase for joint research or pilot projects
 
 | Құжат | Сипаттама |
 |---|---|
-| 📄 **White Paper** | Прототип архитектурасы |
-| 🧪 **Тестілеу нұсқаулығы** | Демо стендті орналастыру үшін қатаң нұсқаулық |
+| 📄 **White Paper** | Прототип архитектурасы (сипатталған, таратылмаған) |
+| 🧪 **Тестілеу нұсқаулығы** | Зертханалық стенд үшін тұжырымдамалық нұсқаулық |
 | 🗺 **Жол картасы** | Одан әрі даму жоспарлары (эксперименттік) |
+
+> 📌 Құжаттама тек сипаттама мақсатында ұсынылған. Онымен бірге код немесе екілік файлдар берілмейді.
 
 ---
 
@@ -173,23 +189,27 @@ You may request access to the full codebase for joint research or pilot projects
 
 ### ⚠️ ВАЖНО – ПРОЧИТАЙТЕ В ПЕРВУЮ ОЧЕРЕДЬ
 
-> Этот проект является **ИСКЛЮЧИТЕЛЬНО ЭКСПЕРИМЕНТАЛЬНЫМ ИССЛЕДОВАТЕЛЬСКИМ ПРОТОТИПОМ**.
+> Этот репозиторий — **ИСКЛЮЧИТЕЛЬНО КОНЦЕПТУАЛЬНОЕ И ОБРАЗОВАТЕЛЬНОЕ ОПИСАНИЕ**.
 >
-> Он не предназначен для реального применения, распространения или причинения вреда. Код публикуется в образовательных целях для демонстрации возможностей автономной разведки и стимулирования развития национальной кибербезопасности Казахстана.
+> **Исходный код, двоичные файлы, исполняемые файлы и любые материалы для скачивания здесь не публикуются.** Эта страница существует только для описания направления исследований, предполагаемой архитектуры и защитной мотивации проекта.
 >
-> Инструмент находится в стадии активной разработки. Многие модули не завершены, функциональность может быть нестабильной, а предоставленные двоичные файлы являются демонстрационными сборками. **Любое использование вне изолированной лабораторной среды строго запрещено.**
+> BARLAU — **СТРОГО ЭКСПЕРИМЕНТАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ ПРОТОТИП**. Он не предназначен для реального применения, распространения или причинения вреда. Материал публикуется в образовательных целях для демонстрации концепций автономной разведки и стимулирования развития национальной кибербезопасности Казахстана.
 >
-> Авторы не несут ответственности за неправомерное использование данного прототипа. Используя любой материал из этого репозитория, вы соглашаетесь применять его исключительно для санкционированных тестов на проницаемость с письменного разрешения владельца системы.
+> Все приведённые описания относятся к модулям, которые не завершены или существуют лишь как заглушки. **Любое использование вне изолированной лабораторной среды строго запрещено.**
+>
+> Авторы не несут ответственности за неправомерное использование описанных концепций. Ознакомившись с этим материалом, вы соглашаетесь применять его исключительно для санкционированных тестов на проницаемость с письменного разрешения владельца системы.
 
 ---
 
 ### Видение
 
-Укрепление киберсуверенитета Республики Казахстан через создание открытой платформы для исследования методов автономной разведки и противостояния цифровым угрозам. **Barlau** — экспериментальный инструмент Red Team, разрабатываемый казахстанскими специалистами в образовательных и защитных целях.
+Укрепление киберсуверенитета Республики Казахстан через создание открытой платформы для исследования методов автономной разведки и противостояния цифровым угрозам. **Barlau** — экспериментальная концепция Red Team, разрабатываемая казахстанскими специалистами в образовательных и защитных целях.
 
 ---
 
-### Возможности (текущий прототип)
+### Возможности (описанная концепция — не публикуется)
+
+Таблица ниже описывает **предполагаемый исследовательский охват** прототипа. Ни один из этих модулей не распространяется в данном репозитории.
 
 | Категория | Описание |
 |---|---|
@@ -201,15 +221,17 @@ You may request access to the full codebase for joint research or pilot projects
 | **Сбор документов** | Чувствительные файлы .doc, .xls, .pdf, .dwg (фильтр по дате и ключевым словам) |
 | **Обход защиты** | Патчинг AMSI/ETW, анти-песочница, очистка журналов, самоуничтожение |
 
-> ⚠️ Все функции работают только в контролируемой тестовой среде. Текущая версия содержит заглушки и незавершённые модули, отмеченные в коде.
+> ⚠️ Все описания относятся только к контролируемой тестовой среде. Код, двоичные файлы или любые файлы не предоставляются. Проект остаётся на концептуальной и документационной стадии.
 
 ---
 
 ### 🧪 Для исследователей и государственных структур
 
-Вы можете запросить доступ к полной кодовой базе для проведения совместных исследований или пилотных проектов.
+Доступ к полной кодовой базе **публично не предоставляется**. Автор не распространяет исходный код, двоичные файлы или любые исполняемые материалы через этот репозиторий.
 
-**Контакт:** [MadMax1337@proton.me](MadMax1337@proton.me)
+Для совместных исследований, академического сотрудничества или пилотных проектов вы можете связаться с автором напрямую.
+
+**Контакт:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
 
 ---
 
@@ -217,9 +239,11 @@ You may request access to the full codebase for joint research or pilot projects
 
 | Документ | Описание |
 |---|---|
-| 📄 **White Paper** | Архитектура прототипа |
-| 🧪 **Руководство по тестированию** | Строгая инструкция по развёртыванию демо-стенда |
+| 📄 **White Paper** | Архитектура прототипа (описана, не распространяется) |
+| 🧪 **Руководство по тестированию** | Концептуальная инструкция для лабораторного стенда |
 | 🗺 **Дорожная карта** | Планы дальнейшей разработки (экспериментальной) |
+
+> 📌 Документация предоставлена исключительно в описательных целях. Код или двоичные файлы к ней не прилагаются.
 
 ---
 
