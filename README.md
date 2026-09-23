@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/9dde6e81-97dc-4b2a-afc7-9fafc010d4c4" alt="Barys Framework" width="700">
+<img src="https://github.com/user-attachments/assets/f9da8ce6-296e-432f-8318-de190f3e69d1" alt="Barys Framework" width="700">
 
 # BARLAU — Autonomous Reconnaissance Agent
 
