@@ -6,7 +6,7 @@
 
 **EXPERIMENTAL RESEARCH PROTOTYPE · CONCEPT ONLY**
 
-Kazakhstan Military Intelligence Tool · Research Prototype
+Kazakhstan Intelligence Tool · Research Prototype
 
 ---
 
@@ -75,7 +75,7 @@ Access to the full codebase is **not publicly available**. The author does not d
 
 For joint research, academic collaboration, or pilot projects, you may contact the author directly.
 
-**Contact:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
+**Contact:** [Muha93417@gmail.com](mailto:Muha93417@gmail.com)
 
 ---
 
@@ -83,7 +83,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 | Document | Description |
 |---|---|
-| 📄 **White Paper** | Prototype architecture (described, not distributed) |
+| [📄 **White Paper**](DEMO.md) | Prototype architecture (described, not distributed) |
 | 🧪 **Testing Guide** | Conceptual instructions for a laboratory stand |
 | 🗺 **Roadmap** | Further development plans (experimental) |
 
@@ -93,7 +93,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 ### Contact
 
-- **Email:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
+- **Email:** [Muha93417@gmail.com](mailto:Muha93417@gmail.com)
 
 ---
 
@@ -153,7 +153,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 Бірлескен зерттеулер, академиялық ынтымақтастық немесе пилоттық жобалар үшін автормен тікелей байланыса аласыз.
 
-**Байланыс:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
+**Байланыс:** [Muha93417@gmail.com](mailto:Muha93417@gmail.com)
 
 ---
 
@@ -171,7 +171,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 ### Байланыс
 
-- **Email:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
+- **Email:** [Muha93417@gmail.com](mailto:Muha93417@gmail.com)
 
 ---
 
@@ -231,7 +231,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 Для совместных исследований, академического сотрудничества или пилотных проектов вы можете связаться с автором напрямую.
 
-**Контакт:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
+**Контакт:** [Muha93417@gmail.com](mailto:Muha93417@gmail.com)
 
 ---
 
@@ -249,7 +249,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 ### Контакты
 
-- **Email:** [MadMax1337@proton.me](mailto:MadMax1337@proton.me)
+- **Email:** [Muha93417@gmail.com](mailto:Muha93417@gmail.com)
 
 ---
 
