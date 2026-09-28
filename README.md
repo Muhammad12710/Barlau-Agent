@@ -63,7 +63,7 @@ The table below describes the **intended research scope** of the prototype. None
 | **Messengers & Network** | Telegram tdata, Discord tokens, FileZilla, WinSCP, VPN configs, Wi-Fi passwords |
 | **System intelligence** | Screenshot, webcam capture (if available), keylogger (60 sec), clipboard dump, installed software list |
 | **Document grabber** | Sensitive .doc, .xls, .pdf, .dwg files (filtered by date and keywords) |
-| **Evasion** | AMSI/ETW patching, anti-sandbox, log wiping, self-destruct |
+| **Evasion** | AMSI/ETW patching, anti-sandbox, log wiping, self-destruct, heavily obfuscated, self-issued certificate |
 
 > ⚠️ All descriptions refer to a controlled test environment only. No code, binaries, or files are provided. The project remains at the conceptual and documentation stage.
 
@@ -141,7 +141,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 | **Мессенджерлер & Желі** | Telegram tdata, Discord токендері, FileZilla, WinSCP, VPN конфигурациялары, Wi-Fi құпиясөздері |
 | **Жүйелік ақпарат** | Скриншот, веб-камера суреті (қолжетімді болса), пернетақта тыңдаушысы (60 сек), буфер алмасу, орнатылған бағдарламалар тізімі |
 | **Құжат жинаушы** | Сезімтал .doc, .xls, .pdf, .dwg файлдары (күні мен кілт сөздері бойынша сүзгі) |
-| **Жасырыну** | AMSI/ETW патчтау, анти-құмсалғыш, журналдарды тазарту, өзін-өзі жою |
+| **Жасырыну** | AMSI/ETW патчтау, анти-құмсалғыш, журналдарды тазарту, өзін-өзі жою, Обфускация, өздігінен берілген сертификат |
 
 > ⚠️ Барлық сипаттамалар тек бақыланатын сынақ ортасына қатысты. Код, екілік файлдар немесе кез келген файл ұсынылмайды. Жоба тұжырымдамалық және құжаттамалық кезеңде қалады.
 
@@ -219,7 +219,7 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 | **Мессенджеры и сеть** | Telegram tdata, токены Discord, FileZilla, WinSCP, конфиги VPN, пароли Wi-Fi |
 | **Системная информация** | Скриншот, снимок с веб-камеры (при наличии), кейлоггер (60 сек), дамп буфера обмена, список установленного ПО |
 | **Сбор документов** | Чувствительные файлы .doc, .xls, .pdf, .dwg (фильтр по дате и ключевым словам) |
-| **Обход защиты** | Патчинг AMSI/ETW, анти-песочница, очистка журналов, самоуничтожение |
+| **Обход защиты** | Патчинг AMSI/ETW, анти-песочница, очистка журналов, самоуничтожение, Обфускация, самоподпись |
 
 > ⚠️ Все описания относятся только к контролируемой тестовой среде. Код, двоичные файлы или любые файлы не предоставляются. Проект остаётся на концептуальной и документационной стадии.
 
