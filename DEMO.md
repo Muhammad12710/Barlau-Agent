@@ -54,3 +54,43 @@ In future releases, the agent will be enhanced with environment‑specific evasi
 - **Self-deletion:** The original executable schedules its own deletion via a delayed batch command or direct `DeleteFileW` after process termination.
 
 **Result:** The target system returns to its pre-infection state. Defender shows no alerts, Event Viewer is empty, and the user's TEMP folder is clean. For an IT administrator, nothing happened.
+
+## 7. Under the Hood
+
+Barlau is built with a modular architecture designed for extensibility and stealth:
+
+- **Anti-Detection Layer** – AMSI/ETW patching, anti-sandboxing, indirect syscall stubs.
+- **Collection Engine** – Pluggable modules for browsers, wallets, documents, session data, and system reconnaissance.
+- **Exfiltration Adapter** – Currently Telegram, with a pluggable interface for future C2 (HTTP/2, DNS tunnel, WebSocket).
+- **Self-Destruct & Cleanup** – Event log clearing, secure file deletion, and scheduled self-removal.
+
+Each module runs independently and can be toggled on/off via a lightweight config, allowing operators to tailor the agent to specific engagement objectives.
+
+## 8. Lab Validation & Limitations
+
+**Tested in:**
+- Windows 10/11 Pro (build 22H2, fully patched)
+- Windows Defender with default signature updates
+- Chrome, Edge, Brave (latest stable)
+- Sandbox: VMware Workstation / VirtualBox with anti‑VM detection bypassed
+
+**Independent AV scan (VirusTotal, public demo build):**
+<img width="1920" height="1028" alt="EXEТест" src="https://github.com/user-attachments/assets/d0014b34-cfe3-4df6-8b87-57362dd3a25c" />
+
+> 12/70 engines flagged the executable. **Microsoft Defender and 57 others did NOT detect it.**  
+> Detections are primarily from advanced EDR/next‑gen solutions (CrowdStrike, Elastic, ESET), confirming the agent successfully evades default consumer and small‑business protection, while enterprise‑grade platforms require the additional evasion techniques currently under development.
+
+**Known limitations (current demo):**
+- No UAC bypass – requires administrative privileges at launch.
+- No persistence – the agent runs once and terminates.
+- Telegram C2 is rate‑limited and unsuitable for real operations.
+- Enterprise EDRs (CrowdStrike, SentinelOne, Defender for Endpoint) are not evaded by the current public release.
+
+These limitations are intentional for the public demo; internal builds overcome many of them and are available for partners under NDA.
+
+## 9. Ethical & Legal Statement
+
+This project exists to **strengthen Kazakhstan's national cyber resilience**.  
+Barlau is an experimental research tool – it demonstrates what an advanced autonomous agent can achieve, so that defenders can prepare better.
+
+**Authorised use only.** Unauthorised use against systems you do not own or have explicit permission to test is illegal. The author disclaims any responsibility for misuse.
