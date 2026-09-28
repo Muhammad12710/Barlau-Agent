@@ -84,8 +84,8 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 | Document | Description |
 |---|---|
 | [📄 **White Paper**](DEMO.md) | Prototype architecture (described, not distributed) |
-| 🧪 **Testing Guide** | Conceptual instructions for a laboratory stand |
-| 🗺 **Roadmap** | Further development plans (experimental) |
+| [🧪 **Testing Guide**](DEMO.md) | Conceptual instructions for a laboratory stand |
+| [🗺 **Roadmap**](DEMO.md) | Further development plans (experimental) |
 
 > 📌 Documentation is provided for descriptive purposes only. No code or binaries accompany it.
 
@@ -161,9 +161,9 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 | Құжат | Сипаттама |
 |---|---|
-| 📄 **White Paper** | Прототип архитектурасы (сипатталған, таратылмаған) |
-| 🧪 **Тестілеу нұсқаулығы** | Зертханалық стенд үшін тұжырымдамалық нұсқаулық |
-| 🗺 **Жол картасы** | Одан әрі даму жоспарлары (эксперименттік) |
+| [📄 **White Paper**](DEMO.md) | Прототип архитектурасы (сипатталған, таратылмаған) |
+| [🧪 **Тестілеу нұсқаулығы**](DEMO.md) | Зертханалық стенд үшін тұжырымдамалық нұсқаулық |
+| [🗺 **Жол картасы**](DEMO.md) | Одан әрі даму жоспарлары (эксперименттік) |
 
 > 📌 Құжаттама тек сипаттама мақсатында ұсынылған. Онымен бірге код немесе екілік файлдар берілмейді.
 
@@ -239,9 +239,9 @@ For joint research, academic collaboration, or pilot projects, you may contact t
 
 | Документ | Описание |
 |---|---|
-| 📄 **White Paper** | Архитектура прототипа (описана, не распространяется) |
-| 🧪 **Руководство по тестированию** | Концептуальная инструкция для лабораторного стенда |
-| 🗺 **Дорожная карта** | Планы дальнейшей разработки (экспериментальной) |
+| [📄 **White Paper**](DEMO.md) | Архитектура прототипа (описана, не распространяется) |
+| [🧪 **Руководство по тестированию**](DEMO.md) | Концептуальная инструкция для лабораторного стенда |
+| [🗺 **Дорожная карта**](DEMO.md) | Планы дальнейшей разработки (экспериментальной) |
 
 > 📌 Документация предоставлена исключительно в описательных целях. Код или двоичные файлы к ней не прилагаются.
 
