@@ -63,7 +63,8 @@ Barlau is built with a modular architecture designed for extensibility and steal
 - **Collection Engine** – Pluggable modules for browsers, wallets, documents, session data, and system reconnaissance.
 - **Exfiltration Adapter** – Currently Telegram, with a pluggable interface for future C2 (HTTP/2, DNS tunnel, WebSocket).
 - **Self-Destruct & Cleanup** – Event log clearing, secure file deletion, and scheduled self-removal.
-
+- Executable is heavily obfuscated (control flow, string encryption) to bypass signature-based scanners.
+- Signed with a self-issued certificate to appear legitimate to basic reputation filters.
 Each module runs independently and can be toggled on/off via a lightweight config, allowing operators to tailor the agent to specific engagement objectives.
 
 ## 8. Lab Validation & Limitations
